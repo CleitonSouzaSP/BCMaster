@@ -1,12 +1,13 @@
 ﻿using BC.Kernel;
-using BCMaster.Rotas.WebAPI.Context.Rotas;
-using BCMaster.Rotas.WebAPI.Domain.Rotas;
-using BCMaster.Rotas.WebAPI.Inteface.Rotas;
-using Microsoft.AspNetCore.DataProtection.Repositories;
-using Microsoft.AspNetCore.Mvc;
+using BCMaster.Domain.Domain.Rotas;
+using BCMaster.Domain.Inteface.Rotas;
+using BCMaster.Infra.Context.Rotas;
 using Microsoft.EntityFrameworkCore;
+using System;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace BCMaster.Rotas.WebAPI.Infra.Rotas
+namespace BCMaster.Infra.Infra.Rotas
 {
     public class RotaRepository : IRotaRepository
     {

@@ -1,4 +1,4 @@
-﻿namespace BCMaster.Rotas.WebAPI.Services.Rotas
+﻿namespace BCMaster.Services.Services.Rotas
 {
     public interface IRotaService
     {

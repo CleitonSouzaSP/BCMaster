@@ -1,4 +1,4 @@
-﻿namespace BCMaster.Rotas.WebAPI.Domain.Rotas
+﻿namespace BCMaster.Domain.Domain.Rotas
 {
     public class Rota
     {

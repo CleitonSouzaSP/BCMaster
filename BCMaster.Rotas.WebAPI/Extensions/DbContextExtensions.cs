@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore;
-using BCMaster.Rotas.WebAPI.Context.Rotas;
+using BCMaster.Infra.Context.Rotas;
 
 namespace BCMaster.Rotas.WebAPI.Extensions
 {

@@ -1,6 +1,6 @@
-﻿using BCMaster.Rotas.WebAPI.Context.Rotas;
+﻿using BCMaster.Infra.Context.Rotas;
 
-namespace BCMaster.Rotas.WebAPI.Services.Rotas
+namespace BCMaster.Services.Services.Rotas
 {
     public class RotaService : IRotaService
     {

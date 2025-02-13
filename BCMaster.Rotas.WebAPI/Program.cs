@@ -1,5 +1,5 @@
-using BCMaster.Rotas.WebAPI.Context.Rotas;
-using BCMaster.Rotas.WebAPI.Domain.Rotas;
+using BCMaster.Domain.Domain.Rotas;
+using BCMaster.Infra.Context.Rotas;
 using BCMaster.Rotas.WebAPI.Extensions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;

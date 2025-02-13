@@ -1,7 +1,6 @@
-﻿using BCMaster.Rotas.WebAPI.Domain.Rotas;
-using BCMaster.Rotas.WebAPI.Infra;
-using BCMaster.Rotas.WebAPI.Inteface.Rotas;
-using BCMaster.Rotas.WebAPI.Services.Rotas;
+﻿using BCMaster.Domain.Domain.Rotas;
+using BCMaster.Domain.Inteface.Rotas;
+using BCMaster.Services.Services.Rotas;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BCMaster.Rotas.WebAPI.Controller.Rotas

@@ -1,6 +1,6 @@
-﻿using BCMaster.Rotas.WebAPI.Infra.Rotas;
-using BCMaster.Rotas.WebAPI.Inteface.Rotas;
-using BCMaster.Rotas.WebAPI.Services.Rotas;
+﻿using BCMaster.Domain.Inteface.Rotas;
+using BCMaster.Infra.Infra.Rotas;
+using BCMaster.Services.Services.Rotas;
 
 namespace BCMaster.Rotas.WebAPI.Extensions
 {

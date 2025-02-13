@@ -1,16 +1,12 @@
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using BC.Kernel;
+using BCMaster.Domain.Domain.Rotas;
+using BCMaster.Domain.Inteface.Rotas;
 using BCMaster.Rotas.WebAPI.Controller.Rotas;
-using BCMaster.Rotas.WebAPI.Domain.Rotas;
-using BCMaster.Rotas.WebAPI.Inteface.Rotas;
-using BCMaster.Rotas.WebAPI.Services.Rotas;
+using BCMaster.Services.Services.Rotas;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Moq;
-using Xunit;
 
 public class RotasControllerTests
 {

@@ -1,7 +1,7 @@
 ﻿using BC.Kernel;
-using BCMaster.Rotas.WebAPI.Domain.Rotas;
+using BCMaster.Domain.Domain.Rotas;
 
-namespace BCMaster.Rotas.WebAPI.Inteface.Rotas
+namespace BCMaster.Domain.Inteface.Rotas
 {
     public interface IRotaRepository
     {

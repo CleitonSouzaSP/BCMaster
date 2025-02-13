@@ -1,8 +1,9 @@
-﻿using BCMaster.Rotas.WebAPI.Domain.Rotas;
-using BCMaster.Rotas.WebAPI.Infra.Rotas;
+﻿using BCMaster.Domain.Domain.Rotas;
+using BCMaster.Infra.Infra.Rotas;
 using Microsoft.EntityFrameworkCore;
+using System.Linq;
 
-namespace BCMaster.Rotas.WebAPI.Context.Rotas
+namespace BCMaster.Infra.Context.Rotas
 {
     public class RotaDbContext : DbContext
     {

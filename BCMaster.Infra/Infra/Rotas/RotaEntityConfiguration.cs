@@ -1,7 +1,7 @@
-﻿using BCMaster.Rotas.WebAPI.Domain.Rotas;
+﻿using BCMaster.Domain.Domain.Rotas;
 using Microsoft.EntityFrameworkCore;
 
-namespace BCMaster.Rotas.WebAPI.Infra.Rotas
+namespace BCMaster.Infra.Infra.Rotas
 {
     public class RotaEntityConfiguration : IEntityTypeConfiguration<Rota>
     {
