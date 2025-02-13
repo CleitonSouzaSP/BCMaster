@@ -1,0 +1,6 @@
+@BCMaster.Rotas.WebAPI_HostAddress = http://localhost:5221
+
+GET {{BCMaster.Rotas.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
