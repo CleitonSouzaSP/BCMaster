@@ -51,7 +51,6 @@ builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
 //Resolução de dependencias, adicionado no metodo de extensão
 builder.Services.AddRepositories();
-
 builder.Services.AddServices();
 
 var app = builder.Build();

@@ -1,5 +1,6 @@
 ﻿using BCMaster.Domain.Domain.Rotas;
 using BCMaster.Domain.Inteface.Rotas;
+using BCMaster.Rotas.WebAPI.Controller.ViweModels;
 using BCMaster.Services.Services.Rotas;
 using Microsoft.AspNetCore.Mvc;
 
@@ -66,7 +67,7 @@ namespace BCMaster.Rotas.WebAPI.Controller.Rotas
         /// <param name="rota"></param>
         /// <returns></returns>
         /// <exception cref="ArgumentNullException"></exception>
-        [ProducesResponseType(typeof(Rota), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(RotasViewModel), StatusCodes.Status200OK)]
         [Route("update")]
         [HttpPut]
         public async Task<IActionResult> Atualizar ([FromBody]Rota rota)
@@ -97,7 +98,7 @@ namespace BCMaster.Rotas.WebAPI.Controller.Rotas
         /// </summary>
         /// <param name="cancellationToken"></param>
         /// <returns></returns>
-        [ProducesResponseType(typeof(Rota), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(RotasViewModel), StatusCodes.Status200OK)]
         [Route("{id}")]
         [HttpDelete]
         public async Task<IActionResult> Excluir([FromBody] Rota rota)
@@ -128,7 +129,7 @@ namespace BCMaster.Rotas.WebAPI.Controller.Rotas
         /// EndPoint Responsável por retornar uma lista simples de todas rotas
         /// </summary>
         /// <returns>Lista Simples de Produtos</returns>
-        [ProducesResponseType(typeof(int), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(RotasViewModel), StatusCodes.Status200OK)]
         [HttpGet]
         public async Task<IActionResult> ListarRotas(CancellationToken cancellationToken = default)
         {
